@@ -190,12 +190,22 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+ ## SR FLIPFLOP
 
+![image](https://github.com/aswini068/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149219827/d453c31c-3cd2-45be-b48c-3152780e4dc8)
 
+## D FLIPFLOP
 
+![image](https://github.com/aswini068/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149219827/050cb1f5-dcdf-445a-a56f-8f2b5ba30805)
 
+## JK FLIPFLOP
 
+![image](https://github.com/aswini068/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149219827/81e5024c-a259-48cc-bed9-ec88fab5d7e2)
 
+## T FLIPFLOP
+
+![image](https://github.com/aswini068/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149219827/96a0f693-a15e-4986-895b-2ce220554c87)
 
 
 ### RESULTS 
+Implementation-of-flipflops-using-verilog successfully completed
