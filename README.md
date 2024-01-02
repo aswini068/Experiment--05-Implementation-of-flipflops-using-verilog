@@ -108,67 +108,111 @@ Step:5 End the program with endmodule. Step:6 Run the program and choose RTL vie
 
 ### PROGRAM 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: R.LOGA MITHRA
-RegisterNumber: 212223100027
+Developed by: M.ASWINI
+RegisterNumber: 212223220010
 
 SR FLIP FLOP:
 
 module exp_5_1(S,R,clk,Q,Qbar);
+
 input S,R,clk;
+
 output reg Q;
+
 output reg Qbar;
+
 initial Q=0;
+
 initial Qbar=1;
+
 always @(posedge clk)
+
 begin
+
 Q=S|((~R)&Q);
+
 Qbar=R|((~S)&(Qbar));
+
 end
+
 endmodule
 
 D FLIP FLOP:
 
 module exp_5D(D,clk,Q,Qbar);
+
 input D,clk;
+
 output reg Q;
+
 output reg Qbar;
+
 initial Q=0;
+
 initial Qbar=1;
+
 always @(posedge clk)
+
 begin 
+
 Q=D;
+
 Qbar=~D;
+
 end
+
 endmodule
 
 JK FLIP FLOP:
 
 module exp_5_2(J,K,clk,Q,Qbar);
+
 input J,K,clk;
+
 output reg Q;
+
 output reg Qbar;
+
 initial Q=0;
+
 initial Qbar=1;
+
 always @(posedge clk)
+
 begin
+
 Q=(J&(~Q))|((~K)&Q);
+
 Qbar=((~J)&(Qbar))|K&(~Qbar);
+
 end
+
 endmodule
 
 T FLIP FLOP:
 
 module exp_5_4(T,clk,Q,Qbar);
+
 input T,clk;
+
 output reg Q;
+
 output reg Qbar;
+
 initial Q=0;
+
 initial Qbar=1;
+
 always @(posedge clk)
+
 begin
+
 Q=(T&(~Q))|((~T)&Q);
+
 Qbar=((~T)&Qbar)|(T&(~Qbar));
+
 end 
+
 endmodule
 
 
